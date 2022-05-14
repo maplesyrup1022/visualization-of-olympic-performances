@@ -1,8 +1,8 @@
 ## Visualization of Olympic Performances
 
 ## Contributors
-Anran Wang aw3919@nyu.edu
-Calvin Shi cs6308@nyu.edu
+Anran Wang aw3919@nyu.edu  
+Calvin Shi cs6308@nyu.edu  
 Haoxuan Sun hs4379@nyu.edu
 
 ## Instructions
@@ -15,9 +15,9 @@ The Olympics have long been known as the symbol of competitive athletic spirit, 
 
 
 ## Description of Dataset and Processing
-We found and will visualize a dataset named [Olympic Sports and Medals, 1896-2014](https://www.kaggle.com/datasets/the-guardian/olympic-games), which contains about 37,000 records of every Olympic athlete that has won a medal from the first Olympics Athens 1896 to the XXII Olympic Winter Games Sochi 2014. Each record consists of 9 attributes that describe the information of an awarded athlete: game year, host city, athlete name, athlete country code, athlete gender, sport, discipline, event and the type of medal awarded.
-The data was provided by the IOC Research and Reference Service and published by the Guardian's Datablog, so it is highly reliable. Although a few records are missing information, we have filled them using data from the International Olympic Committee’s website. In order to improve user experience in the visualization, we aggregate statistics from the original dataset and export a much smaller dataset in size, which enables better processing/loading speed and thus better user experience.
-Not all attributes provided by the original dataset will be used in this project. Only a few of them are aggregated into a processed dataset and will be visualized:
+We found and will visualize a dataset named [Olympic Sports and Medals, 1896-2014](https://www.kaggle.com/datasets/the-guardian/olympic-games), which contains about 37,000 records of every Olympic athlete that has won a medal from the first Olympics Athens 1896 to the XXII Olympic Winter Games Sochi 2014. Each record consists of 9 attributes that describe the information of an awarded athlete: game year, host city, athlete name, athlete country code, athlete gender, sport, discipline, event and the type of medal awarded.  
+The data was provided by the IOC Research and Reference Service and published by the Guardian's Datablog, so it is highly reliable. Although a few records are missing information, we have filled them using data from the International Olympic Committee’s website. In order to improve user experience in the visualization, we aggregate statistics from the original dataset and export a much smaller dataset in size, which enables better processing/loading speed and thus better user experience.  
+Not all attributes provided by the original dataset will be used in this project. Only a few of them are aggregated into a processed dataset and will be visualized:  
 
 - Olympic Game Year
 - Summer/Winter Olympic Game
@@ -62,7 +62,7 @@ The must-have features for this project is the interactions/links among the thre
 
 The Olympics have long been known as the symbol of competitive athletic spirit, while they have also witnessed historical events and changes. In the first Olympic female athletes were not even allowed to compete, but now more and more female athletes are competing for themselves, for their nation and for their people. From WWII to the modern day COVID pandemic, people continue to show their resilience and perseverance with participation in the Olympics. When watching the 2020 Tokyo Olympics, you might be wondering, how has my nation performed in past Olympics? To address that question, we built a visualization system that helps audiences find out how each nation performed in the Olympics from 1896 to 2014. We use a geo-map to help the audience locate the country of their interest, a line chart to show the general trend of the medals won by a certain country, and a bar chart to visualize the distribution of medals won by male and female athletes. Here is a screenshot of our final product.
 
-![Final Product](./pics/finallook.png)
+![Final Product](./pics/finallook.png | width=100))
 
 ## Data
 A table dataset called [Olympic Sports and Medals, 1896-2014](https://www.kaggle.com/datasets/the-guardian/olympic-games) is used in this project, which contains about 37,000 records of every Olympic athlete that has won a medal from the first Olympics in Athens 1896 to the XXII Olympics Winter Games in Sochi 2014. Each record consists of 10 attributes that describe the information of an awarded athlete. Detailed information of each attribute is listed in the table on the right.
