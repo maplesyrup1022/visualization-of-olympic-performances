@@ -1,6 +1,4 @@
-# Visualization of Olympic Performances
-
-# Proposal
+# Proposal for Visualization of Olympic Performances
 
 ## Overview
 The Olympics have long been known as the symbol of competitive athletic spirit, while they have also witnessed historical events and changes. In the first Olympic female athletes were not even allowed to compete, but now more and more female athletes are competing for themselves, for their nation and for their people. From WWII to the modern day COVID pandemic, people continue to show their resilience and perseverance with participation in the Olympics. How did my nation perform in the Olympics? That might be a question that comes naturally when you’re watching them. For our project, we intend to propose a visualization system that helps the general audience to find out how each nation performs in the Olympics on a time scale.
@@ -22,7 +20,7 @@ After watching the 2020 Tokyo Olympics, Lily is so intrigued that she would like
 ## Description of Visualization & Sketch
 Three views will be presented in this project: geo-map, line chart, and bar chart respectively.
 
-![Sketch](pics\sketch.png)
+![Sketch](./pics/sketch.png)
 
 The first view (geo-map) visualizes a country’s performance in the Olympics determined by the total number of medals won and using color legend. When hovering over a country, a tooltip pops up showing the name of the country as well as how many medals the country won. 
 
@@ -31,3 +29,23 @@ The second view (line chart) visualizes the trend of total/gold/silver/bronze me
 The third view (grouped bar chart) visualizes the comparison of the number of medals a country won by female and male athlete in a period of time. When hovering over a grouped bar, a tooltip shows the country's name with how many medals females and males won respectively. 
 
 There are 5 UI widgets designed for these views: one radio button for users to choose to display summer or winter Olympic data; one drop-down for users to select the country of interest; two  drop-downs for users to choose the start and end years of their time period. All three views are linked together. When users modify filters in UI widgets, all three views will be updated. The line chart and the grouped bar chart are linked bidirectionally. When hovering over a point or a grouped bar, the corresponding grouped bar and points will be highlighted immediately, and the geomap data updates as well.
+
+The must-have features for this project is the interactions/links among the three views, without which the project would not be as interesting. The three views linked together give users multidimensional information about how a country performed in the past games. From horizontal comparison (number of medals a country won) to vertical comparison (number and type of medals a country won) to gender comparison (number of medals a country’s male and female athletes won), users are able to receive key information necessary to easily gauge how well a country has performed in the Olympics.
+
+## Work Breakdown and Schedule
+
+| Task  |Estimated Time |Target Date|Notes|
+| ------------- | ------------- | ------------- | ------------- |
+| Geo-map (static view) - Calvin|2 hrs|4/25/22|- Draw projection of world borders using D3. - Define colormap encoded by medal count.|
+|Line Chart (static view) - Anran|2 hrs|4/27/22|Define axes and scales using medal data.Plot points for bronze, silver, gold, and total medal count.Draw respective lines.|
+|Bar Chart (static view) Haoxuan|2 hrs|4/29/22|Define axes and scales using medal data. Draw bars for male, female, and total medal count.|
+|Geo-map (interactive view) Calvin|2 hrs|5/1/22|Implement highlighting of regions on mouse event. Create tooltip displaying selected country’s performance.|
+|Line Chart (interactive view) Anran|2 hrs|5/3/22|Implement highlighting of points on mouse event. Create tooltip displaying year and medal count.|
+|Bar Chart (interactive view) Haoxuan|2 hrs|5/5/22|Implement highlighting of bars on mouse event. Create tooltip displaying year and medal count.|
+|Linking the views Calvin Anran Haoxuan|2 hrs|5/7/22|Add drop-down selectors for choosing time period, event, and country. Link drop-down selector to filter the data visualized in the views. Link geo-map mouse event to the country selection of the line chart and bar chart.|
+|Optional features Calvin Anran Haoxuan|Remaining time|5/9/22|TBD|
+
+
+
+
+
