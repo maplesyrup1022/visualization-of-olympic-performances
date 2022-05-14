@@ -62,8 +62,7 @@ The must-have features for this project is the interactions/links among the thre
 
 The Olympics have long been known as the symbol of competitive athletic spirit, while they have also witnessed historical events and changes. In the first Olympic female athletes were not even allowed to compete, but now more and more female athletes are competing for themselves, for their nation and for their people. From WWII to the modern day COVID pandemic, people continue to show their resilience and perseverance with participation in the Olympics. When watching the 2020 Tokyo Olympics, you might be wondering, how has my nation performed in past Olympics? To address that question, we built a visualization system that helps audiences find out how each nation performed in the Olympics from 1896 to 2014. We use a geo-map to help the audience locate the country of their interest, a line chart to show the general trend of the medals won by a certain country, and a bar chart to visualize the distribution of medals won by male and female athletes. Here is a screenshot of our final product.
 
-![Final Product](./pics/finallook.png | width=100)
-<img src="./pics/finallook.png" width="100">
+<img src="./pics/finallook.png" width="1000">
 
 ## Data
 A table dataset called [Olympic Sports and Medals, 1896-2014](https://www.kaggle.com/datasets/the-guardian/olympic-games) is used in this project, which contains about 37,000 records of every Olympic athlete that has won a medal from the first Olympics in Athens 1896 to the XXII Olympics Winter Games in Sochi 2014. Each record consists of 10 attributes that describe the information of an awarded athlete. Detailed information of each attribute is listed in the table on the right.
