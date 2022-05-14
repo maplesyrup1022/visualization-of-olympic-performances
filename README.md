@@ -1,4 +1,4 @@
-## Visualization of Olympic Performances
+# Visualization of Olympic Performances
 
 ## Contributors
 Anran Wang aw3919@nyu.edu  
