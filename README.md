@@ -62,7 +62,7 @@ The must-have features for this project is the interactions/links among the thre
 
 The Olympics have long been known as the symbol of competitive athletic spirit, while they have also witnessed historical events and changes. In the first Olympic female athletes were not even allowed to compete, but now more and more female athletes are competing for themselves, for their nation and for their people. From WWII to the modern day COVID pandemic, people continue to show their resilience and perseverance with participation in the Olympics. When watching the 2020 Tokyo Olympics, you might be wondering, how has my nation performed in past Olympics? To address that question, we built a visualization system that helps audiences find out how each nation performed in the Olympics from 1896 to 2014. We use a geo-map to help the audience locate the country of their interest, a line chart to show the general trend of the medals won by a certain country, and a bar chart to visualize the distribution of medals won by male and female athletes. Here is a screenshot of our final product.
 
-<img src="./pics/finallook.png" width="500">
+![final look](./pics/finallook.png)
 
 ## Data
 A table dataset called [Olympic Sports and Medals, 1896-2014](https://www.kaggle.com/datasets/the-guardian/olympic-games) is used in this project, which contains about 37,000 records of every Olympic athlete that has won a medal from the first Olympics in Athens 1896 to the XXII Olympics Winter Games in Sochi 2014. Each record consists of 10 attributes that describe the information of an awarded athlete. Detailed information of each attribute is listed in the table on the right.
@@ -70,8 +70,8 @@ A table dataset called [Olympic Sports and Medals, 1896-2014](https://www.kaggle
 The dataset was provided by the IOC Research and Reference Service and published by the Guardian's Datablog, so it is highly reliable. A few records with missing information have been filled through searching for data from the International Olympic Committee’s website.
 In order to improve user experience in the visualization and to lower the server’s burden, we aggregated the statistics from the original dataset and exported a much smaller dataset in size, which only contains the attributes to be visualized. We paid close attention when processing the data of medals won by male and female athletes because of various gender mixed events. Detailed information of each attribute is listed below.
 
-![data](./pics/data1.png)
-![data2](./pics/data2.png)
+<img src="./pics/data1.png" width="300">
+<img src="./pics/data2.png" width="300">
 
 ## Goals & Tasks
 
@@ -88,11 +88,11 @@ The first view (geo-map) visualizes a country’s performance in the Olympics, d
 
 The second view (line chart) visualizes the trend of a country’s gold, silver, bronze, total medals by using points and 4 lines in gold, silver, bronze, blue respectively. When hovering over a point, all four points in the same year are highlighted and a tooltip shows up, showing the info about the point as well as a detailed breakdown of how many medals the country won in that year. A line chart is the best choice to show the trend of how a country performed over the years. 
 
-![line chart](./pics/linechart.png)
+<img src="./pics/linechart.png" width="300">
 
 The third view (grouped bar chart) visualizes the comparison of the number of medals a country won by female (in pink) and male (in blue) athletes in a period of time. When hovering over a grouped bar, the selected bars are highlighted and a tooltip shows the country's name with how many medals females and males won respectively. A bar chart is a good way to show the quantity of medals and a grouped bar chart is effective for comparing data of two groups together.
 
-![bar chart](./pics/barchart.png)
+<img src="./pics/barchart.png" width="300">
 
 The line chart and the grouped bar chart are linked bidirectionally. Hovering on either a grouped bar or a point will also highlight the corresponding points or grouped bar of the same year.
 
