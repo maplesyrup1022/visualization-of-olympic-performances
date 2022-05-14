@@ -1,0 +1,67 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.parent_div {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    text-align: center;
+}
+
+.BarMan {
+    stroke: "black";
+    fill: rgb(102, 181, 227);
+}
+
+.BarWoman {
+    stroke: "black";
+    fill: rgb(222, 112, 189);
+}
+
+.OtherBarMan {
+    stroke: "black";
+    fill: rgb(102, 181, 227);
+    opacity: 0.4;
+}
+
+.OtherBarWoman {
+    stroke: "black";
+    fill: rgb(222, 112, 189);
+    opacity: 0.4;
+}
+
+.LineTotal {
+    stroke: rgb(102, 181, 227);
+    stroke-width: '1.5px';
+}
+
+.CircleTotal {
+    fill: rgb(102, 181, 227);
+}
+
+.LineGold {
+    stroke: #ffd700;
+    stroke-width: '1.5px';
+}
+
+.CircleGold {
+    fill: #ffd700;
+}
+
+.LineSilver {
+    stroke: #c2bdb0;
+    stroke-width: '1.5px';
+}
+
+.CircleSilver {
+    fill: #c2bdb0;
+}
+
+.LineBronze {
+    stroke: #ae6842;
+    stroke-width: '1.5px';
+}
+
+.CircleBronze {
+    fill: #ae6842;
+}
