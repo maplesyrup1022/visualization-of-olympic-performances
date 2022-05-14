@@ -88,11 +88,11 @@ The first view (geo-map) visualizes a country’s performance in the Olympics, d
 
 The second view (line chart) visualizes the trend of a country’s gold, silver, bronze, total medals by using points and 4 lines in gold, silver, bronze, blue respectively. When hovering over a point, all four points in the same year are highlighted and a tooltip shows up, showing the info about the point as well as a detailed breakdown of how many medals the country won in that year. A line chart is the best choice to show the trend of how a country performed over the years. 
 
-<img src="./pics/linechart.png" width="300">
+<img src="./pics/linechart.png" width="400">
 
 The third view (grouped bar chart) visualizes the comparison of the number of medals a country won by female (in pink) and male (in blue) athletes in a period of time. When hovering over a grouped bar, the selected bars are highlighted and a tooltip shows the country's name with how many medals females and males won respectively. A bar chart is a good way to show the quantity of medals and a grouped bar chart is effective for comparing data of two groups together.
 
-<img src="./pics/barchart.png" width="300">
+<img src="./pics/barchart.png" width="400">
 
 The line chart and the grouped bar chart are linked bidirectionally. Hovering on either a grouped bar or a point will also highlight the corresponding points or grouped bar of the same year.
 
